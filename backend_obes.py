@@ -4,7 +4,7 @@ from flask_cors import CORS
 import pickle
 
 # Load model
-with open("svc_model.pkl", "rb") as f:
+with open("obesitas_backend\svc_model.pkl", "rb") as f:
     model = pickle.load(f)
 
 app = Flask(__name__)
